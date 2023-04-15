@@ -2,23 +2,28 @@
 
 <html>
   <head>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="./style.css" />
   </head>
 
   <body>
     <!-- write the body here -->
-	  <form>
-		  <div>
-			  <label for="name">Name</label>
-	          <input type="text" placeholder="Enter Name" id="name">
-		  </div>
-		
-		  <div>
-			  <label for="age">Age</label>
-	          <input type="number" placeholder="Enter Age" id="age">
-		  </div>
-	  </form>
+    <form id="form">
+      <div class="container">
+        <div>
+          <label for="name">Name</label>
+          <input type="text" placeholder="Enter Name" id="name" />
+        </div>
 
-    <script type="text/javascript" src="./script.js"></script>
+        <div>
+          <label for="age">Age</label>
+          <input type="number" placeholder="Enter Age" id="age" />
+        </div>
+        <div>
+          <button type="submit" id="btn">submit</button>
+        </div>
+      </div>
+    </form>
+
+    <script type="text/javascript" src="./main.js"></script>
   </body>
 </html>
